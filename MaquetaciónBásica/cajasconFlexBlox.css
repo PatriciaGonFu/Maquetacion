@@ -1,0 +1,108 @@
+body{
+    height: 97vh;
+    width: 97vw;
+}
+body{
+    border:solid grey 2px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header{
+    height: 10vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header{
+    border:solid rgb(119, 246, 119) 2px;
+    display: block;
+    align-items: flex-start;
+}
+
+nav{
+    height: 8vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav{
+    border:solid violet 2px;
+    display:block;
+    align-items: flex-start;
+}
+main{
+    display: flex;
+    align-items:center;
+    height: 70vh;
+    justify-content: space-between;
+}
+main article{
+    height: 60vh;
+    width: 60vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main article{
+    border: solid blue 2px;
+    display: block;
+    align-items: flex-end;
+}
+main article header{
+    height: 10vh;
+    width: 59vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main article header{
+    border:solid rgb(120, 243, 120) 2px
+}
+
+main article section{
+    height: 10vh;
+    width: 59vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main article section{
+    border:solid violet 2px
+}
+
+main article footer{
+    height: 10vh;
+    width: 59vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main article footer{
+    border: solid yellow 2px;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+main aside{
+    height: 60vh;
+    width: 40vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main aside{
+    border: solid orange 2px;
+}
+
+footer{
+        height: 7%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+footer {
+        border:solid yellow 2px;
+        display:block;
+        align-items: flex-end;
+    }
+main aside div{
+    height: 46%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main aside div{
+    border: solid rgb(154, 154, 249) 2px;
+    display:block;
+    align-items: flex-end;
+}
+
+
+
