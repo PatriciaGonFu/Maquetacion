@@ -1,0 +1,52 @@
+header ul{
+    height: 44px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+}
+
+main div{
+    height: 400px;
+    width: 600px;
+    align-items: center;
+}
+main div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    height: 350px;
+    width: 220px;
+    display: flex;
+}
+
+.img-container{
+    height: 100%;
+}
+
+.img-container img{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+
