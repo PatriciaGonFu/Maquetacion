@@ -1,11 +1,15 @@
-body{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+body{
     text-decoration: none;
-    height: 100vh;
     width: 100vw;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 header{
@@ -14,32 +18,158 @@ header{
     color: beige;
     justify-content: space-between;
     align-items: center;
-    height: 44px;
+    height: 13vh;
     width: 100%;
+    padding: 8px;
+}
+
+.logo,header aside{
+    width: 600px;
 }
 
 .logo{
     display: flex;
+    height: 60%;
+    width: 40%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 85px
     justify-content: center;
     align-items: center;
-    border: solid white 2px;
+
 }
 header aside{
     display: flex;
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
-    border: solid wheat 2px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-aside ul{
-    list-style: none;
-    text-decoration: none;
+ ul{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
-    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
+header aside ul li {
+    margin-right: 50px; 
+}
+main{
+    background-color: rgb(237, 224, 249);
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.quienesSomos{
+    display: flex;
+    height: 16%;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 82, 99);
+}
+.presentacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+.fotoviajera{
+    display: flex;
+    height: 60%;
+    width: 24%;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.fotoviajera img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.queHacemos{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    width: 60%;
+}
+
+main section{
+    font-size: larger;
+    color: blueviolet;
+    padding: 60px;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card{
+    display: flex;
+    height: 250px;
+    width: 190px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-container{
+    height: 70%;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pideInformacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, select {
+    margin-bottom: 8px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input {
+    margin-right: 8px;
+}
+
+
