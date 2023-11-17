@@ -15,7 +15,7 @@ header{
    background-color: black; 
    font-family: 'Poppins', sans-serif;
    display: flex;
-   height: 85px;
+   height: 15vh;
    width: 100%;
    justify-content: space-between;
    align-items: center;
@@ -60,10 +60,11 @@ main{
     display: flex;
     font-family:'Poppins', sans-serif;
     background-color: white;
-    height: 442px;
+    height: 78vh;
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items:center;
+    background-color: azure;
 }
 .titulo{
     height: 280px;
@@ -85,7 +86,7 @@ main{
 .details section{
     color: grey;
 }
-.datos{
+.datos li{
     background-color: blue;
     color: aliceblue;
     display: flex;
@@ -105,7 +106,7 @@ footer{
     justify-content: center;
     align-items: flex-end;
     align-content: center;
-    height: 32px;
+    height: 6vh;
  }
 
 .logo-container{
