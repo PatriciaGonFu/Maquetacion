@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgenciaDeViajes</title>
     <link rel="stylesheet" href="agenciaViajes.css">
+    <script src="agenciaViajes.js"></script>
 </head>
 
 
 <body>
-    <header>
+        <header>
     <div class="logo">
         <h2>Viajes Violeta</h2>
     </div>
@@ -82,29 +83,40 @@
     <section>
         <h1>Infórmate, nosotras te ayudamos</h1>
     </section>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <input type="text" id="name" placeholder="Nombre y apellidos" />
+        </li>
 
-    <form>
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Apellidos">
-        <input type="text" placeholder="Teléfono">
-        <input type="text" placeholder="Correo electrónico">
-        <input type="text" placeholder="Origen">
-        <input type="text" placeholder="Destino">
-        <input type="text" placeholder="Fecha de salida">
-        <label for="compañía">¿Viajas sola o acompañada?</label>
-        <select name="" id="">
-            <option value="Viajo sola">Viajo sola</option>
-            <option value="Viajo acompañada">Viajo acompañada</option>
-        </select>
-        <label for="acuerdo">
-            <input type="checkbox" name="acuerdo" id="acuerdo">
-            Estoy de acuerdo con la política de privacidad y condiciones
-        </label>
-        <input type="submit" value="Enviar">
-    </form>
-</div>
+          <li>
+            <input type="text" id="origen" placeholder="Origen" />
+          </li>
 
+          <li>
+            <input type="text" id="destino" placeholder="Destino" />
+          </li>
+
+          <li>
+            <input type="text" id="personas" placeholder="Nº personas" />
+          </li>
+
+          <li>
+            <input type="text" id="fecha" placeholder="Fecha" />
+          </li>
+        </ul>
+    <p>
+        <button type="button" onclick="obtenerDatos()">Enviar</button>
+      </p>
+
+    <p>
+        <button type="button" onclick="filtrarDatos()">filtrar</button>
+    </p>
+</form>
+
+<div id="obtenerDatos"></div>
  </main>
- <script> src="agenciaViajes.js"</script>
+ 
+
 </body>
 </html>
