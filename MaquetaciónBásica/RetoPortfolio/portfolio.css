@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    text-decoration: none;
+  }
+
+  header{
+    color: rgb(173, 50, 50);
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header section, header aside{
+    width: 650px;
+
+}
+
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 60%;
+    list-style: none;
+    color: rgb(217, 172, 172);
+    font-weight: bolder;
+}
+
+aside ul li:hover{
+  border: solid rgb(173, 50, 50);
+  background-color: rgb(173, 50, 50);
+  color: blanchedalmond;
+  border-radius: 10px;
+} 
+a:visited {
+  color: rgb(217, 172, 172);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    text-decoration: none;
+  }
+  
+  .titulo, .quiensoy {
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(109, 94, 94);
+    font-size: x-large;
+    margin-bottom: 8px;
+    flex: 1;
+  }
+  
+  .quiensoy {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  main button {
+    background-color: rgb(173, 50, 50);
+    color: rgb(246, 204, 204);
+    border: 1px solid rgb(173, 50, 50);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 8px; 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  main button:hover{
+    background-color: rgb(246, 204, 204);
+    color: rgb(173, 50, 50)
+    
+  }
+  footer{
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: center;
+    height: 6vh;
+    font-family: 'Nunito', sans-serif;
+color: rgb(109, 94, 94);
+  }
+
+.logo-container{
+    display: flex;
+    align-items: flex;
+    align-content: center;
+    height: 98%;
+    display: flex;
+}
+
+img{
+    height: 100%;
+    width: 32px;
+}
+
+footer .logo-container{
+  width: 30px;
+}
+
+footer aside{
+  width: 300px;
+  margin-left: 15px;
+}
