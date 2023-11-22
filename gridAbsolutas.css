@@ -1,0 +1,30 @@
+.absolutas{
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: 250px 250px;
+    color: white;
+}
+
+.a{
+    background-color: green;
+}
+
+.b{
+    background-color: orange;
+}
+
+.c{
+    background-color: orangered;
+}
+
+.d{
+    background-color: red;
+}
+
+.e{
+    background-color: blue;
+}
+
+.f{
+    background-color: yellow;
+}
