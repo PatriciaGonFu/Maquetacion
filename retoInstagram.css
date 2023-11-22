@@ -167,11 +167,9 @@ p{
 footer{
     display: flex;
     height: 50px;
-    width: 1263px;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    border: solid red 2px;
+    flex-wrap: wrap;
 }
 
 ul{
@@ -179,26 +177,32 @@ ul{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 60%;
-    flex-wrap: nowrap;
+    width: 68%;
     list-style: none;
     font-size: x-small;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 15px;
     color: gray;
-    border: solid green 2px;
+    flex-wrap: wrap;
 } 
 
-@media screen and (max-width: 942px)
+@media screen and (max-width: 1174px)
 {
     footer{
-        width: 942px;
-        height: 60px;
+        height: 50px;
     }
     ul{
-        flex-wrap:wrap;
+        gap: 14px;
     }
 }
+@media screen and (max-width: 1159px)
+{
+    footer{
+        height: 58px;
+    }
+
+}
+
 
 @media screen and (max-width: 874px)
 {
@@ -211,18 +215,104 @@ ul{
     } 
 } 
 
-@media screen and {max-width: 834px;
+@media screen and (max-width: 849px)
+{
     footer{
-        width: 834px;
+        width: 849px;
     }
 } 
 
+@media screen and (max-width: 800px)
+{
+    footer{
+        width: 800px;
+    }
+} 
+
+@media screen and (max-width: 750px)
+{
+    footer{
+        width: 750px;
+    }
+} 
+
+@media screen and (max-width: 700px)
+{
+    footer{
+        width: 700px;
+    }
+} 
+
+@media screen and (max-width: 660px)
+{
+    footer{
+        width: 660px;
+    }
+} 
+
+@media screen and (max-width: 610px)
+{
+    footer{
+        width: 610px;
+        height: 83px;
+    }
+} 
+
+@media screen and (max-width: 570px)
+{
+    footer{
+        width: 570px;
+    }
+} 
+@media screen and (max-width: 548px)
+{
+    footer{
+        width: 548px;
+    }
+} 
+
+@media screen and (max-width: 510px)
+{
+    footer{
+        width: 510px;
+    }
+} 
 @media screen and (max-width: 450px)
 {
+    footer{
+        width: 450px;
+    }
     .aside-container{
         border: none
     }
     footer{
         width: 450px;
+    }
+} 
+@media screen and (max-width: 414px)
+{
+    footer{
+        width: 414px;
+    }
+} 
+
+@media screen and (max-width: 385px)
+{
+    footer{
+        width: 385px;
+    }
+} 
+
+@media screen and (max-width: 355px)
+{
+    footer{
+        width: 355px;
+    }
+} 
+
+@media screen and (max-width: 320px)
+{
+    footer{
+        width: 320px;
     }
 } 
