@@ -1,0 +1,136 @@
+.nombradas{
+    display: grid;
+    height: 98vh;
+    grid-template-columns: [x0]1fr [x1]1fr [x2] 1fr [x3]1fr [x4];
+    grid-template-rows: [y0] 1fr [y1] 6fr [y2]1fr [y3]
+}
+
+.header{
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.main{
+    grid-column: x0 / x4;
+    grid-row: y1 / y2;
+    color: white;
+    display:grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4];
+    grid-template-rows: [y0] 1fr [y1];
+}
+
+.azul{
+    grid-column: x0 / x3 ;
+    grid-row: y0 / y1;
+    background-color: rgb(70, 70, 202);
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3];
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3];
+}
+
+.contenido{
+    grid-column:x0 / x3;
+    grid-row:y0 / y1;
+    border: solid lightblue 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.Tema1{
+    grid-column: x0 / x2;
+    grid-row: y1 / y3;
+    border: solid lightblue 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.tema2{
+    grid-column: x2 / x3;
+    grid-row: y1 / y3;
+    border: solid lightblue 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.verde{
+    grid-column: x3 / x4 ;
+    grid-row: y0 / y1;
+    background-color: green;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: [x0]1fr [x1];
+    grid-template-rows: [y0]1fr [y1]1fr [y2] 1fr [y3] 1fr [y4];
+}
+
+.Menu{
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+    border: solid black 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.menu1{
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+    background-color: black;
+    border: solid green 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.menu2{
+    grid-column: x0 / x1;
+    grid-row: y2 / y3;
+    background-color: black; 
+    border: solid green 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.menu3{
+    grid-column: x0 / x1;
+    grid-row: y3 / y4;
+    background-color: black;
+    border: solid green 1px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.morado{
+    grid-column: x0 / x4;
+    grid-row: y2 / y3 ;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2];
+    grid-template-rows: [y0]1fr [y1];
+}
+.footer{
+    grid-column:x0 / x1 ;
+    grid-row: y0 / y1;
+    border: solid black 1px;
+    margin: 4px;
+    padding: 2px;
+
+}
+.contacto{
+    grid-column:x1 / x2 ;
+    grid-row: y0 / y1;
+    border: solid black 1px;
+    margin: 4px;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+
