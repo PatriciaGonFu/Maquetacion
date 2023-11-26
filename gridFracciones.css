@@ -1,0 +1,17 @@
+.fracciones{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2.5fr 1fr
+}
+
+.a, .c, .d, .f, .h, .k{
+    background-color: green;
+    color: black;
+
+}
+
+.b, .e, .g, .i, .j, .l{
+    background-color: black;
+    color: white;
+}
