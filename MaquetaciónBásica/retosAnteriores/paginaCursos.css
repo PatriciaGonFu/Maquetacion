@@ -12,74 +12,79 @@ body{
 
 }
 header{
-   background-color: black; 
-   font-family: 'Poppins', sans-serif;
-   display: flex;
-   height: 15vh;
-   width: 100%;
-   justify-content: space-between;
-   align-items: center;
-}
-.logo{
-    height: 85px;
-    width: 330px;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-}
-.img-container{
-    height: 100%;
+    height: 15vh;
     width: 100%;
-}
-.img-container img{
-    height: 100%;
-    width: 100%;
-}
-header aside{
-    height: 100px;
-    width: 800px;
-    display: flex;
     justify-content: space-between;
-    color: grey;
-    font-family:'Poppins', sans-serif;
-    font-size: larger;
     align-items: center;
-}
-
-header aside ul{
-    list-style: none;
+ }
+ .logo{
+     height: 85px;
+     width: 330px;
+     display: flex;
+ }
+ .img-container{
+     height: 100%;
+     width: 100%;
+ }
+ .img-container img{
+     height: 100%;
+     width: 100%;
+ }
+ header aside{
+     height: 100px;
+     width: 800px;
+     display: flex;
+     justify-content: space-between;
+     font-family:'Poppins', sans-serif;
+     font-size:xx-large;
+     align-items: center;
+     font-weight: bolder;
+ }
+ 
+ header aside ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     color: aliceblue;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     border-radius: 10px;
+ }
+ 
+ header aside ul li{
+     background-color: blue;
+     color: aliceblue;
+     border-radius: 10px;
+     padding: 6px;
+ }
+ 
+ a:visited {
+     color: aliceblue;
+ }
+ 
+ main{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-a:visited {
-    color: grey
-}
-main{
-    display: flex;
-    height: 78vh;
     font-family:'Poppins', sans-serif;
-    gap: 10px;
     justify-content: space-evenly;
     align-content: space-around;
     align-items: center;
-    background-color: rgb(195, 251, 232);
 }
 
 .card{
     display: flex;
-    height: 90%;
+    height: 97%;
     width: 30%;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: space-around;
-    gap:10px;
-    border: solid blue 2px;
+    gap:15px;
     background-color: white;
     border-radius: 10px;
     padding: 8px;
     text-align: justify;
+    margin-top: 12px;
 }
 div.presentacion{
     display:flex;
@@ -89,14 +94,20 @@ div.presentacion{
 .titulo{
     display: flex;
     color: blue;
+    justify-self: start;
 }
 .fecha{
     display:flex;
     color: grey;
+    padding: 8px;
+    margin: 8px;
+    height: 80px;
 }
 
 .info{
     display: flex;
+    padding: 5px;
+    margin-top: 4px;
 }
 .horario{
     display:flex;
@@ -114,7 +125,10 @@ footer{
     justify-content: center;
     align-items: flex-end;
     align-content: center;
-    height: 6vh;
+    height: 7vh;
+    width: 100%;
+    margin: auto;
+    border: solid black 2px;
  }
 
 .logo-container{
@@ -126,7 +140,7 @@ footer{
     display: flex;
 }
 
-img{
+.logo-container img{
     height: 100%;
     width: 32px;
 }
