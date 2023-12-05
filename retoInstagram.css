@@ -14,15 +14,22 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 60px;
-    height: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    gap: 8px;
 }
 
+.caja1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 99%;
+    border: solid greenyellow 2px;
+}
 .img-container{
-    height: 470px;
-    width: 315px;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+    border: solid pink 2px;
 }
 
 .img-container img{
@@ -30,19 +37,23 @@ main{
     width: 100%;
 }
 
-aside{
+.caja2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+    border: solid red 2px;
 }
-.aside-container{
+    
+.contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 400px;
-    width: 299px;
+    justify-content: flex-start;
+    height: 455px;
+    width: 289px;
     border: solid rgb(182, 180, 180) 0.5px;
     border-radius: 3px;
 }
@@ -57,7 +68,7 @@ aside{
     height: 100%;
     width: 100%;
 }
-
+/* 
 form{
     display: flex;
     flex-direction: column;
@@ -162,7 +173,7 @@ p{
 .app-container img{
     height: 100%;
     width: 100%;
-}
+} */
 
 footer{
     display: flex;
@@ -170,6 +181,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border: solid blueviolet 2px;
 }
 
 ul{
