@@ -29,7 +29,7 @@ function filtrarDatos(){
     if (data[i].destino.toUpperCase() == "CANARIAS" || data[i].destino.toUpperCase() == "MALLORCA"
     || data[i].destino.toUpperCase() == "GALICIA"){
 
-      console.log(data[i]);
+      // console.log(data[i]);
       
       filtrado += `<p> Nombre: ${data[i].nombre}</p>
       <p> Origen: ${data[i].origen}</p>

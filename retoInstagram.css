@@ -21,15 +21,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 50%;
-    height: 99%;
-    border: solid greenyellow 2px;
+    width: 49vw;
 }
 .img-container{
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 94%;
     justify-content: flex-end;
-    border: solid pink 2px;
 }
 
 .img-container img{
@@ -39,12 +36,8 @@ main{
 
 .caja2{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    width: 50%;
-    height: 100%;
-    border: solid red 2px;
+    width: 47vw;
 }
     
 .contenido{
@@ -52,10 +45,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 455px;
-    width: 289px;
+    height: 94%;
+    width: 60%;
     border: solid rgb(182, 180, 180) 0.5px;
     border-radius: 3px;
+    margin-left: 30px;
 }
 .instagram-container{
     height: 85px;
@@ -68,29 +62,29 @@ main{
     height: 100%;
     width: 100%;
 }
-/* 
+
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-}
+    width: 95%;
+} 
 input{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 38px;
-    width: 250px;
+    width: 95%;
     margin: 4px;
     padding: 2px;
     margin-bottom:6px;
-
 }
 button{
     background-color: rgba(0, 115, 255, 0.753);
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 28px;
-    width: 250px;
+    width: 93%;;
     margin-bottom:12px;
     padding: 2px;
     border-radius: 5px;
@@ -142,8 +136,8 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: solid rgb(182, 180, 180) 0.5px;
     border-radius: 3px;
-    height: 40px;
-    width: 299px;
+    height: 45px;
+    width: 96%;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -166,22 +160,20 @@ p{
 }
 
 .app-container{
-    height: 70px;
-    width: 279px;
+    height: 64px;
+    width: 230px;
 }
 
 .app-container img{
     height: 100%;
     width: 100%;
-} */
+} 
 
 footer{
     display: flex;
-    height: 50px;
+    height: 8%;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    border: solid blueviolet 2px;
 }
 
 ul{
@@ -193,138 +185,41 @@ ul{
     list-style: none;
     font-size: x-small;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    gap: 15px;
+    gap: 10px;
     color: gray;
     flex-wrap: wrap;
 } 
 
-@media screen and (max-width: 1174px)
-{
-    footer{
-        height: 50px;
-    }
-    ul{
-        gap: 14px;
-    }
-}
-@media screen and (max-width: 1159px)
-{
-    footer{
-        height: 58px;
-    }
-
-}
-
-
 @media screen and (max-width: 874px)
 {
-    .img-container{
+    main{
+        flex-direction: column;
+    }
+    .caja1{
         display: none
     }
-    
-    footer{
-        width: 874px;
-    } 
-} 
-
-@media screen and (max-width: 849px)
-{
-    footer{
-        width: 849px;
+    .caja2{
+        margin: none;
+        width: 85%;
+    }
+    .contenido{
+        justify-content: center;
+        margin-left: none;
+        width: 85%;
     }
 } 
 
-@media screen and (max-width: 800px)
-{
-    footer{
-        width: 800px;
-    }
-} 
 
-@media screen and (max-width: 750px)
+@media screen and(max-width:560px)
 {
     footer{
-        width: 750px;
+        height: 20%;
     }
-} 
+}
 
-@media screen and (max-width: 700px)
-{
-    footer{
-        width: 700px;
-    }
-} 
-
-@media screen and (max-width: 660px)
-{
-    footer{
-        width: 660px;
-    }
-} 
-
-@media screen and (max-width: 610px)
-{
-    footer{
-        width: 610px;
-        height: 83px;
-    }
-} 
-
-@media screen and (max-width: 570px)
-{
-    footer{
-        width: 570px;
-    }
-} 
-@media screen and (max-width: 548px)
-{
-    footer{
-        width: 548px;
-    }
-} 
-
-@media screen and (max-width: 510px)
-{
-    footer{
-        width: 510px;
-    }
-} 
 @media screen and (max-width: 450px)
 {
-    footer{
-        width: 450px;
-    }
-    .aside-container{
-        border: none
-    }
-    footer{
-        width: 450px;
-    }
-} 
-@media screen and (max-width: 414px)
-{
-    footer{
-        width: 414px;
-    }
-} 
-
-@media screen and (max-width: 385px)
-{
-    footer{
-        width: 385px;
-    }
-} 
-
-@media screen and (max-width: 355px)
-{
-    footer{
-        width: 355px;
-    }
-} 
-
-@media screen and (max-width: 320px)
-{
-    footer{
-        width: 320px;
+    .contenido{
+        border: none;
     }
 } 
